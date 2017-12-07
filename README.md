@@ -6,6 +6,7 @@
 Reactor pattern
 Callback pattern
 Observer pattern
+Producer consumer pattern
 # To read
 
 nodejs architecture
@@ -27,6 +28,10 @@ promiseaplus.com
 bluebird
 promise.all
 promise.race
+map reduce
+
+
+
 
 # NFRs
 
