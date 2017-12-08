@@ -3,11 +3,22 @@
 
 ## Design patterns:
 
-Reactor pattern
-Callback pattern
-Observer pattern
-Producer consumer pattern
-Factory
+### Reactor pattern
+
+The standard Reactor allows a lead application with simultaneous events, while maintaining the simplicity of single threading. 
+
+
+### Callback/Observer pattern
+
+The observer pattern (a subset of the asynchronous publish/subscribe pattern) is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems.
+
+
+### Producer consumer pattern
+The Producer Consumer pattern is an ideal way of separating work that needs to be done from the execution of that work. As you might guess from its name the Producer Consumer pattern contains two major components, which are usually linked by a queue. This means that the separation of the work that needs doing from the execution of that work is achieved by the Producer placing items of work on the queue for later processing instead of dealing with them the moment they are identified. 
+
+### Factory(Virtual Constructor)
+Define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate
+
 Revealing Constructor
 Proxy/Surrogate
 Decorator
