@@ -1,7 +1,7 @@
 # Nodejs-essential-patterns-notes
 
 
-# Design patterns:
+## Design patterns:
 
 Reactor pattern
 Callback pattern
@@ -21,9 +21,10 @@ Chain of Responsibility
 Intercepting filter
 Singleton
 Interleaving
+GoF
 
 
-# To read
+## To read
 
 nodejs architecture
 event demultiplexer
@@ -33,7 +34,6 @@ dependency hell
 Continuation passing style
 circular dependencies
 difference between exports and module.exports
-spider npm
 duck typing
 stamp specification
 Function hooking(AOP)
@@ -42,21 +42,16 @@ operator overloading
 object virtualization
 CSRF
 CORS
-.apply function
-proxy
 composable factory pattern
 inversion of control
 Asynchronous Module Definition
 Universal module definition
 Gulp, grunt, webpack
 Caching mechanisms
-Scale X,Y,Z
-Reliability nodejs
-Zero downtime restart
-pm2
 sticky load balancing
 upstart
 
+## Reads
 libuv resource - nikhilm.github.io/uvbook
 Closures - developer.mozilla.org/en-US/docs/Web/Javascript/Guide/Closures
 Unleashing Zalgo - blog.izs.me/post/5914272143/designing-apis-for-asynchrony
@@ -74,20 +69,51 @@ promise.race
 map reduce
 babel-cli for async await
 Streams
-GoF pattern
+.apply function
+proxy
 
-# Wiring Modules
+## Load Balancing
+peer to peer load balancing
+
+## Application Architecture
+monolithic vs microkernel design
+elastic microservice
+Scale X,Y,Z
+Reliability nodejs
+Zero downtime restart
+pm2
+
+
+## Lambda Function providers
+seneca
+awslambda
+apache mesos
+
+## Messaging Architecture
+api proxy
+api orchestration
+message broker
+
+## Message Queues
+QoS
+MQTT
+AMQP
+STOMP
+RabbitMQ(AMQP)
+zeromq
+
+## Wiring Modules
 Hardcoded dependency
 Dependency injection
 Service locator
 Dependency Injection containers
 
 
-# NFRs
+## NFRs
 
 Reusability, maintenance, usability
 
-# Key Phrases
+## Key Phrases
 Functions are first class objects
 Callback last
 Error param first
