@@ -20,6 +20,8 @@ Command
 Chain of Responsibility
 Intercepting filter
 Singleton
+Interleaving
+
 
 # To read
 
@@ -44,7 +46,16 @@ CORS
 proxy
 composable factory pattern
 inversion of control
-
+Asynchronous Module Definition
+Universal module definition
+Gulp, grunt, webpack
+Caching mechanisms
+Scale X,Y,Z
+Reliability nodejs
+Zero downtime restart
+pm2
+sticky load balancing
+upstart
 
 libuv resource - nikhilm.github.io/uvbook
 Closures - developer.mozilla.org/en-US/docs/Web/Javascript/Guide/Closures
@@ -53,7 +64,8 @@ mrale.ph/blog/2012/09/23/grokking-v8-closures-for-fun.html
 nodejs.org/docs/v0.10.0/api/http.html#http_agent_maxsockets
 promiseaplus.com/
 tc39.github.io/ecmascript-asyncawait
-
+github.com/Izzimach/react-three
+github.com/iamdustan/react-hardware
 
 
 bluebird
