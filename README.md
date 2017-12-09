@@ -19,9 +19,12 @@ The Producer Consumer pattern is an ideal way of separating work that needs to b
 ### Factory(Virtual Constructor)
 Define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate
 
-Revealing Constructor
-Proxy/Surrogate
-Decorator
+### Revealing Constructor(Abstraction)
+
+### Proxy/Surrogate
+a class functioning as an interface to something else
+
+### Decorator
 Adapter
 Strategy
 State
